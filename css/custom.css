@@ -3,6 +3,35 @@
     color: black;
 }
 
+body {
+    letter-spacing: -0.004em;
+    line-height: 1.58;
+    font-size: 18px;
+}
+
+.col-lg-8 {
+    width: 100%;
+}
+
+.content-column-content {
+    max-width: 680px;
+    margin: auto;
+}
+
 .content-column-content p{
     margin-top: 2em;
+    margin-bottom: 0em;
+    
+}
+
+.box-masonry p {
+    font-size: 18px;
+}
+
+.box-masonry h4 {
+    font-size: 18px;
+}
+
+.sidebar-heading {
+    font-size: 20px;
 }
