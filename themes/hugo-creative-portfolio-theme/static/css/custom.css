@@ -25,11 +25,14 @@ body {
 }
 
 .box-masonry .box-masonry-text p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .box-masonry h4 {
-    font-size: 20px;
+    font-size: 22px;
+    margin-top: 0em;
+    margin-bottom: 12px;
+    text-transform: none;
 }
 
 .box-masonry .box-masonry-hover-text-header p {
