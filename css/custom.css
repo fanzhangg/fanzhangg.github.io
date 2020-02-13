@@ -19,19 +19,31 @@ body {
 }
 
 .content-column-content p{
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 0em;
     
 }
 
-.box-masonry p {
-    font-size: 18px;
+.box-masonry .box-masonry-text p {
+    font-size: 16px;
 }
 
 .box-masonry h4 {
+    font-size: 22px;
+    margin-top: 0em;
+    margin-bottom: 12px;
+    text-transform: none;
+}
+
+.box-masonry .box-masonry-hover-text-header p {
     font-size: 18px;
 }
 
 .sidebar-heading {
-    font-size: 20px;
+    font-size: 30px;
+}
+
+h4, h2, h3 {
+    margin-top: 40px;
+    margin-bottom: 0px;
 }
