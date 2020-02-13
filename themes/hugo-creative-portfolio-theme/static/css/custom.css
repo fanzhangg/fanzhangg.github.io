@@ -1,0 +1,46 @@
+/* your styles go here */
+.content-column-content p, .content-column-content li {
+    color: black;
+}
+
+body {
+    letter-spacing: -0.004em;
+    line-height: 1.58;
+    font-size: 18px;
+}
+
+.col-lg-8 {
+    width: 100%;
+}
+
+.content-column-content {
+    max-width: 680px;
+    margin: auto;
+}
+
+.content-column-content p{
+    margin-top: 1em;
+    margin-bottom: 0em;
+    
+}
+
+.box-masonry .box-masonry-text p {
+    font-size: 18px;
+}
+
+.box-masonry h4 {
+    font-size: 20px;
+}
+
+.box-masonry .box-masonry-hover-text-header p {
+    font-size: 18px;
+}
+
+.sidebar-heading {
+    font-size: 30px;
+}
+
+h4, h2, h3 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
