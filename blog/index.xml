@@ -6,7 +6,6 @@
     <description>Recent content in Blogs on Fan Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Nov 2016 19:50:47 +0530</lastBuildDate>
     
 	<atom:link href="https://fanzhangg.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +13,7 @@
     <item>
       <title>Algebraic Sturcture 101</title>
       <link>https://fanzhangg.github.io/blog/algebraic-structure/</link>
-      <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fanzhangg.github.io/blog/algebraic-structure/</guid>
       <description>Some essential definitions and proof for algerbaic structure.
@@ -23,9 +22,28 @@ Group   Group: A group is a non-empty set $G$ with binary operation satisfying:
     </item>
     
     <item>
+      <title>All About Chord Master</title>
+      <link>https://fanzhangg.github.io/blog/about-chord-master/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanzhangg.github.io/blog/about-chord-master/</guid>
+      <description>What are you building? Chord Master is a web application that helps musicians find chords and create chord progressions. It helps you find chords that work together.
+Chords in the progression are represented by the lead sheet symbol. To build a chord, you can click the + button to add a chord, select the chord type and inversion in the dropdown menu, and choose the root note by clicking its key on the keyboard interface.</description>
+    </item>
+    
+    <item>
+      <title>Chungking Express: Hong Kong’s Identity of Becoming</title>
+      <link>https://fanzhangg.github.io/blog/chungking-express/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanzhangg.github.io/blog/chungking-express/</guid>
+      <description>Chungking Express tells juxtaposing two stories of urban lives and modern loves. Both stories’ protagonists work as a cop; Both stories are about their struggle to cope with the loss of their ex-girlfriend respectively. In this approach, the director Wang Kai Wai uses the mutability of the individual identity to indicate the uncertainty of Hong Kong identity. Hong Kong’s social-politics is frustrating through the city’s transition from colonialism to post-colonialism; Its cultural identity is disguised with the popularity of US culture in Hong Kong.</description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://fanzhangg.github.io/blog/hello-world/</link>
-      <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fanzhangg.github.io/blog/hello-world/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-{python}&#34; data-lang=&#34;{python}&#34;&gt;print(&amp;quot;hello world&amp;quot;)

@@ -3,11 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://fanzhangg.github.io/blog/algebraic-structure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://fanzhangg.github.io/blog/about-chord-master/</loc>
+  </url>
+  
+  <url>
     <loc>https://fanzhangg.github.io/portfolio/alqvimia/</loc>
   </url>
   
   <url>
     <loc>https://fanzhangg.github.io/portfolio/chord-master/</loc>
+  </url>
+  
+  <url>
+    <loc>https://fanzhangg.github.io/blog/chungking-express/</loc>
   </url>
   
   <url>
@@ -19,21 +31,15 @@
   </url>
   
   <url>
+    <loc>https://fanzhangg.github.io/blog/hello-world/</loc>
+  </url>
+  
+  <url>
     <loc>https://fanzhangg.github.io/portfolio/l-system/</loc>
   </url>
   
   <url>
     <loc>https://fanzhangg.github.io/portfolio/lvjingtang/</loc>
-  </url>
-  
-  <url>
-    <loc>https://fanzhangg.github.io/blog/algebraic-structure/</loc>
-    <lastmod>2016-11-05T19:50:47+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fanzhangg.github.io/blog/hello-world/</loc>
-    <lastmod>2016-11-05T19:50:47+05:30</lastmod>
   </url>
   
   <url>
@@ -48,16 +54,14 @@
   
   <url>
     <loc>https://fanzhangg.github.io/blog/</loc>
-    <lastmod>2016-11-05T19:50:47+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fanzhangg.github.io/</loc>
-    <lastmod>2016-11-05T19:50:47+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://fanzhangg.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://fanzhangg.github.io/</loc>
   </url>
   
   <url>
