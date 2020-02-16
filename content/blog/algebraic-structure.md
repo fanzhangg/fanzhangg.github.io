@@ -2,9 +2,9 @@
 draft = false
 image = ""
 showonlyimage = false
-date = "2016-11-05T19:50:47+05:30"
+date = "2020-2-15T19:50:47+05:30"
 title = "Algebraic Sturcture 101"
-weight = 4
+weight = 1
 description = "This blog include some essential definitions and proof for algerbaic structure."
 +++
 
