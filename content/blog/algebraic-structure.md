@@ -28,11 +28,11 @@ Some essential definitions and proof for algerbaic structure.
 
 6. **Order of an Element:** $|g|$, the smallest positive integer $n$ such that $g^n = e$ 
 
-7. **Center:** $Z(G) = \{a \in G | ag = ga$ for all $g\in G\}$
+7. **Center:** $Z(G) = \{a \in G | ag = ga \text{ for all } g\in G\}$
 
 8. **Show that Z(G) is a subgroup of G**
 
-   1. Since $eg = ge = g$ for $g \in G$, 
+   1. Since $eg = ge = g$ for $g \in G$
 
    2. Let $a_1, a_2 \in Z(G)$, since $a_1a_2 g = a_1ga_2 = g(a_1a_2)$, $a_1a_2 \in G$
 
