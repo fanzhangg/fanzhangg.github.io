@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Fan Zhang</title>
+    <link>https://fanzhangg.github.io/blog/</link>
+    <description>Recent content in Blogs on Fan Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Nov 2016 19:50:47 +0530</lastBuildDate>
+    
+	<atom:link href="https://fanzhangg.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Algebraic Sturcture 101</title>
+      <link>https://fanzhangg.github.io/blog/algebraic-structure/</link>
+      <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
+      
+      <guid>https://fanzhangg.github.io/blog/algebraic-structure/</guid>
+      <description>Some essential definitions and proof for algerbaic structure.
+Group   Group: A group is a non-empty set $G$ with binary operation satisfying:
+ Identity: exists $e \in G$ such as $ea = ae = a$ Inverse: for each $a \in G$, exists a $b \in G$ such as $ab = ba = e$ Associative: for all $a, b, c \in G$, we have $a(bc) = (ab)c$    Subgroup: If $G$ is a group and $H \subseteq G$ is a subset of $G$, then $H$ is a subgroup of a group G if it is closed under the same binary operation as $G$</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://fanzhangg.github.io/blog/hello-world/</link>
+      <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
+      
+      <guid>https://fanzhangg.github.io/blog/hello-world/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-{python}&#34; data-lang=&#34;{python}&#34;&gt;print(&amp;quot;hello world&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

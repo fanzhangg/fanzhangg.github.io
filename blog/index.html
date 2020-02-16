@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Alqivimia</title>
+<title>Blogs</title>
 <meta name="description" content="Fan Zhang&#39;s Personal Website">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -36,6 +36,8 @@
 
 <link href="https://fanzhangg.github.io/css/custom.css" rel="stylesheet">
 <link rel="shortcut icon" href="https://fanzhangg.github.io/img/favicon.png">
+
+  <link href="https://fanzhangg.github.io/blog/index.xml" rel="alternate" type="application/rss+xml" title="Fan Zhang" />
 
 
 </head>
@@ -95,21 +97,54 @@
 </div>
 
               
-<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
-  <div class="small-navbar visible-xs">
+  <div class="col-xs-12 col-sm-8 col-md-9 content-column">
+    <div class="small-navbar visible-xs">
   <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
   <h1 class="small-navbar-heading"><a href="https://fanzhangg.github.io/">Fan Zhang</a></h1>
 </div>
 
-  <div class="row">
-    <div class="col-lg-8">
-      <div class="content-column-content">
-         <h1>Alqivimia</h1>
-         <p>The Tmall online store of Alqvimia, a cosmetic company</p>
-         
-      </div>
+    <div class="grid">
+        <div class="row">
+          
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+                  <div class="box-masonry">
+                      
+                      
+                      <div class="box-masonry-text">
+                      
+                          <h4><a href="https://fanzhangg.github.io/blog/algebraic-structure/">Algebraic Sturcture 101</a></h4>
+                          <div class="box-masonry-description">
+                            <p>
+                                
+                                  This blog include some essential definitions and proof for algerbaic structure.
+                                
+                            </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+                  <div class="box-masonry">
+                      
+                      
+                      <div class="box-masonry-text">
+                      
+                          <h4><a href="https://fanzhangg.github.io/blog/hello-world/">Hello World</a></h4>
+                          <div class="box-masonry-description">
+                            <p>
+                                
+                                  <pre><code class="language-{python}" data-lang="{python}">print(&quot;hello world&quot;)
+</code></pre>
+                                
+                            </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+        </div>
     </div>
-  </div>
 </div>
 
           </div>
@@ -128,4 +163,51 @@
 
 
 </body>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+
 </html>
