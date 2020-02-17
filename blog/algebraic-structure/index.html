@@ -105,8 +105,8 @@
     <div class="col-lg-8">
       <div class="content-column-content">
          <h1>Algebraic Sturcture 101</h1>
-         <p>Some essential definitions and proof for algerbaic structure.</p>
-<h2 id="group">Group</h2>
+         <h2 id="group">Group</h2>
+<h3 id="group-1">Group</h3>
 <ol>
 <li>
 <p><strong>Group:</strong> A group is a non-empty set $G$ with binary operation satisfying:</p>
@@ -116,6 +116,32 @@
 <li>Associative: for all $a, b, c \in G$, we have $a(bc) = (ab)c$</li>
 </ol>
 </li>
+<li>
+<p><strong>Properties:</strong></p>
+<ol>
+<li><strong>Uniqueness of the identity:</strong> There is only one identity element</li>
+<li><strong>Cancellation in a group:</strong> If $ab=ac$ or $ba=ca$, $b=c$</li>
+</ol>
+<p>$$
+ab = cb \<br>
+abb^{-1} = cbb^{-1} \<br>
+a(bb^{-1}) = c(bb^{-1}) \<br>
+ae = ce \<br>
+a = c
+$$</p>
+<ol start="3">
+<li>
+<p><strong>Uniqueness of inverse in a group:</strong></p>
+<p>Suppose $b, c$ is the inverse of $a$ in the group, since $ab = e, ac = e$, then $ab = ac$. By cancellation, $b = c$.</p>
+</li>
+<li>
+<p><strong>Shoe and socks property:</strong> $(ab)^{-1} = b^{-1}a^{-1}$</p>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="subgroup">Subgroup</h3>
+<ol>
 <li>
 <p><strong>Subgroup:</strong> If $G$ is a group and $H \subseteq G$ is a subset of $G$, then $H$ is a subgroup of a group G if it is closed under the same binary operation as $G$</p>
 </li>
@@ -132,7 +158,20 @@
 <p><strong>Order of an Element:</strong> $|g|$, the smallest positive integer $n$ such that $g^n = e$</p>
 </li>
 <li>
-<p><strong>Center:</strong> $Z(G) = {a \in G | ag = ga$ for all $g\in G}$</p>
+<p><strong>One-step subgroup test:</strong> Let $G$ be a group and $H$ a nonempty subset of $G$, $ab^{-1} \in H$ when $a, b \in H$, then $H$ is a subgroup of $G$</p>
+</li>
+<li>
+<p><strong>Two-step subgroup test:</strong></p>
+<ol>
+<li>$ab \in H$</li>
+<li>$a^{-1} \in H$</li>
+</ol>
+</li>
+</ol>
+<h3 id="cyclic-group">Cyclic Group</h3>
+<ol>
+<li>
+<p><strong>Center:</strong> $Z(G) = {a \in G | ag = ga$ \text{ for all } $g\in G}$</p>
 </li>
 <li>
 <p><strong>Show that Z(G) is a subgroup of G</strong></p>
@@ -153,16 +192,6 @@ ga^{-1} = a^{-1}g
 $$
 Thus, $a^{-1} \in Z(G)$</p>
 </li>
-</ol>
-</li>
-<li>
-<p><strong>One-step subgroup test:</strong> Let $G$ be a group and $H$ a nonempty subset of $G$, $ab^{-1} \in H$ when $a, b \in H$, then $H$ is a subgroup of $G$</p>
-</li>
-<li>
-<p><strong>Two-step subgroup test:</strong></p>
-<ol>
-<li>$ab \in H$</li>
-<li>$a^{-1} \in H$</li>
 </ol>
 </li>
 <li>
@@ -188,22 +217,25 @@ $$</p>
 </ol>
 </li>
 <li>
+<p><strong>Criterion for $a^i = a^j$:</strong> If $a$ has infinite order, $a^i = a^j$ if only if $i=j$. If $a$ has finite order, then $\langle a \rangle = {e, &hellip;, a^{n-1}}$</p>
+</li>
+<li>
+<p><strong>Property of gcd:</strong> If $d = gcd(a, b)$, there is integers $t$ and $s$ such as $d = ta+sb$</p>
+</li>
+<li>
+<p>Let $G$ be a finite cyclic group of order $n$, if $d = gcd(k, n)$, then $\langle a^k \rangle = \langle a^d \rangle$ and $|\langle a^k \rangle | = \frac{n}{d}$</p>
+</li>
+<li>
 <p><strong>The fundamental theorem of cyclic groups (Theorem 4.3):</strong></p>
-<ol>
-<li>
-<p>Every subgroup of cyclic group is cyclic</p>
-</li>
-<li>
-<p>If $|\langle a \rangle| = n$, the order of any subgroup of $\langle a \rangle$ is a divisor of $n$</p>
-</li>
-<li>
-<p>For each positive divisor $k$ of $n$, the group $\langle a \rangle$ has exactly one subgroup of order $k$, $\langle a^{n/k} \rangle$</p>
+<ul>
+<li>Every subgroup of cyclic group is cyclic</li>
+<li>If $|\langle a \rangle| = n$, the order of any subgroup of $\langle a \rangle$ is a divisor of $n$</li>
+<li>For each positive divisor $k$ of $n$, the group $\langle a \rangle$ has exactly one subgroup of order $k$, $\langle a^{n/k} \rangle$</li>
+</ul>
 </li>
 </ol>
-</li>
-</ol>
-<h2 id="permutation">Permutation</h2>
-<ol start="14">
+<h3 id="permutation-group">Permutation Group</h3>
+<ol start="9">
 <li>
 <p><strong>Permutation:</strong> a function from $A$ to $A$ that is one-to-one and onto</p>
 </li>
@@ -211,10 +243,16 @@ $$</p>
 <p><strong>Permutation group:</strong> a set of permutations of $A$ that forms a group under function composition</p>
 </li>
 <li>
-<p>multiply the following two permutations in cycle notation &hellip;.</p>
+<p><strong>Symmetric group:</strong> $S_n = $ permutations of ${1, 2, &hellip;, n}$, $|S_n| = n!$</p>
 </li>
 <li>
-<p>write the following permutation as a product of transpositions</p>
+<p>Disjoint cycles commute</p>
+</li>
+<li>
+<p>multiply the following two permutations in cycle notation</p>
+</li>
+<li>
+<p>Write the permutation as a product of transpositions: $(12)(23)&hellip;(n-1n) = (12)(13)&hellip;(1n)$</p>
 </li>
 <li>
 <p><strong>Order of a permutation</strong>: The order of a permutation of a finite set is the least common multiple of the lengths of the cycles</p>
@@ -223,18 +261,7 @@ $$</p>
 <p><strong>Always even or always odd theorem for permutations:</strong> If $\alpha \in S_n$, and $\alpha = t_1&hellip;t_k = s_1&hellip;s_l$, then $k$ and $l$ are both even or odd</p>
 </li>
 <li>
-<p><strong>Prove cancellation in a group:</strong>
-$$
-ab = cb \<br>
-abb^{-1} = cbb^{-1} \<br>
-a(bb^{-1}) = c(bb^{-1}) \<br>
-ae = ce \<br>
-a = c
-$$</p>
-</li>
-<li>
-<p><strong>Prove uniqueness of inverse in a group:</strong></p>
-<p>Suppose $b, c$ is the inverse of $a$ in the group, since $ab = e, ac = e$, then $ab = ac$. By cancellation, $b = c$.</p>
+<p>If $A_n$ is the subset of even permutations, then $|A_n| = |B_n| = \frac{n!}{2}$, $|A_n|$ is a subgroup</p>
 </li>
 </ol>
 
