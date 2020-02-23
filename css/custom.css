@@ -35,6 +35,11 @@ body {
     text-transform: none;
 }
 
+.box-masonry .category {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
 .box-masonry .box-masonry-hover-text-header p {
     font-size: 18px;
 }
@@ -47,3 +52,12 @@ h4, h2, h3 {
     margin-top: 40px;
     margin-bottom: 0px;
 }
+
+.content-column-content ul {
+    padding-left: 25px;
+}
+
+.content-column-content ol {
+    padding-left: 25px;
+}
+

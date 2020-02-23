@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>math on Fan Zhang</title>
+    <link>https://fanzhangg.github.io/categories/math/</link>
+    <description>Recent content in math on Fan Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://fanzhangg.github.io/categories/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Algebraic Sturcture 101</title>
+      <link>https://fanzhangg.github.io/blog/algebraic-structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanzhangg.github.io/blog/algebraic-structure/</guid>
+      <description>Group Group   Group: A group is a non-empty set $G$ with binary operation satisfying:
+ Identity: exists $e \in G$ such as $ea = ae = a$ Inverse: for each $a \in G$, exists a $b \in G$ such as $ab = ba = e$ Associative: for all $a, b, c \in G$, we have $a(bc) = (ab)c$    Properties:
+ Uniqueness of the identity: There is only one identity element Cancellation in a group: If $ab=ac$ or $ba=ca$, $b=c$  $$ ab = cb \</description>
+    </item>
+    
+  </channel>
+</rss>

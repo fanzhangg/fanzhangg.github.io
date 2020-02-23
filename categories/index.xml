@@ -10,5 +10,32 @@
 	<atom:link href="https://fanzhangg.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>development</title>
+      <link>https://fanzhangg.github.io/categories/development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanzhangg.github.io/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>math</title>
+      <link>https://fanzhangg.github.io/categories/math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanzhangg.github.io/categories/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>movie</title>
+      <link>https://fanzhangg.github.io/categories/movie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanzhangg.github.io/categories/movie/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
