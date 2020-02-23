@@ -1,4 +1,5 @@
 +++
+categories = ["movie"]
 draft = false
 image = "img/blog/chungking-express.jpeg"
 showonlyimage = false

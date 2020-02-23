@@ -1,4 +1,5 @@
 +++
+categories = ["math"]
 draft = false
 image = ""
 showonlyimage = false
