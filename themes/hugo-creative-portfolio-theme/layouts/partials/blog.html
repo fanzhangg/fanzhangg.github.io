@@ -19,6 +19,9 @@
                       {{ else }}
                       <div class="box-masonry-text">
                       {{ end }}
+                          {{ if and (isset .Params "categories") .Params.categories}}
+                            <a href="/categories/{{index (.Params.categories) 0}}"> {{index (.Params.categories) 0}} </a>
+                          {{end}}
                           <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                           <div class="box-masonry-description">
                             <p>
