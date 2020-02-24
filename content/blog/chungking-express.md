@@ -1,7 +1,7 @@
 +++
 categories = ["movie"]
 draft = false
-image = "img/blog/chungking-express.jpeg"
+image = "img/blog/chungking-express.png"
 showonlyimage = false
 date = "2020-2-15T21:50:47+05:30"
 title = "Chungking Express: Hong Kong’s Identity of Becoming"

@@ -1,7 +1,7 @@
 +++
 categories = ["development"]
 draft = false
-image = "img/blog/play_chord.gif"
+image = "img/blog/beethoven.jpg"
 showonlyimage = false
 date = "2020-2-15T21:50:47+05:30"
 title = "All About Chord Master"

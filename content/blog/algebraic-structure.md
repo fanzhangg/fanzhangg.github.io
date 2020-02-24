@@ -1,7 +1,7 @@
 +++
 categories = ["math"]
 draft = false
-image = ""
+image = "img/blog/cube.jpg"
 showonlyimage = false
 date = "2020-2-15T19:50:47+05:30"
 title = "Algebraic Sturcture 101"
