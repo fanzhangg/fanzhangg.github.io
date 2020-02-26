@@ -86,6 +86,18 @@ Chords in the progression are represented by the lead sheet symbol. To build a c
     </item>
     
     <item>
+      <title>Group Exercise</title>
+      <link>https://fanzhangg.github.io/blog/algebraic-hw3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanzhangg.github.io/blog/algebraic-hw3/</guid>
+      <description>Suppose that H is a subgroup of $S_n$ of odd order. Prove that H is a subgroup of $A_n$.
+Lemma: If H is a subgroup of $S_n$, then either every member of H is an even permutation or exactly half of the members are even.
+If there is no odd member, then every member of $H$ is an even permutation.
+If there is an odd member $a \in H$,</description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://fanzhangg.github.io/blog/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

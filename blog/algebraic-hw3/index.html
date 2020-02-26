@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Group Exercise</title>
+<meta name="description" content="Fan Zhang&#39;s Personal Website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" href="https://fanzhangg.github.io/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="https://fanzhangg.github.io/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fanzhangg.github.io/css/owl.carousel.css">
+<link rel="stylesheet" href="https://fanzhangg.github.io/css/owl.theme.css">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css" integrity="sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js" integrity="sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O" crossorigin="anonymous"></script>
+
+
+
+
+  <link href="https://fanzhangg.github.io/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+
+ 
+
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+
+<link href="https://fanzhangg.github.io/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://fanzhangg.github.io/img/favicon.png">
+
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="https://fanzhangg.github.io/">Fan Zhang</a></h1>
+    
+    
+    <ul class="sidebar-menu">
+      
+        <li><a href="https://fanzhangg.github.io/portfolio/">Home</a></li>
+      
+        <li><a href="https://fanzhangg.github.io/blog/">Blog</a></li>
+      
+        <li><a href="https://fanzhangg.github.io/about/">About</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  <a href="https://www.facebook.com/fanzhanggg" data-animate-hover="pulse" class="external facebook">
+    <i class="fa fa-facebook"></i>
+  </a>
+  
+  
+  
+  
+  <a href="https://www.instagram.com/frank_ziggystardust/" title="" class="external instagram">
+    <i class="fa fa-instagram"></i>
+  </a>
+  
+  
+  <a href="mailto:vanadiumzhang@gmail.com" data-animate-hover="pulse" class="email">
+    <i class="fa fa-envelope"></i>
+  </a>
+  
+  
+  <a href="https://www.linkedin.com/in/fanzhangg/" data-animate-hover="pulse" class="external">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+  
+  
+  <a href="https://github.com/fanzhangg" data-animate-hover="pulse" class="external">
+    <i class="fa fa-github"></i>
+  </a>
+  
+  
+  
+</p>
+
+
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="https://fanzhangg.github.io/">Fan Zhang</a></h1>
+</div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>Group Exercise</h1>
+         <ol>
+<li>
+<p>Suppose that H is a subgroup of $S_n$ of odd order. Prove that H is
+a subgroup of $A_n$.</p>
+<p>Lemma: If H is a subgroup of $S_n$, then either every member of H is
+an even permutation or exactly half of the members are even.</p>
+<p>If there is no odd member, then every member of $H$ is an even
+permutation.</p>
+<p>If there is an odd member $a \in H$,</p>
+<p>we can permute an odd member by $ab$ for all even member
+$b \in S_n$, since odd multiples even is odd. Also, since each
+permuted member is unique to each other, the number of odd member
+$\ge$ number of even member.</p>
+<p>For every odd permutation $b \in H$, $ab$ is an even permutation,
+since odd multiplies odd is equal to even. Thus, the number of even
+member $\ge$ number of odd member.</p>
+<p>Thus, if there is odd members, exactly half of the members are even.</p>
+<p>Since we know $H$ is odd order, $H$ has an odd number of elements,
+then $H$ cannot have same number of even and odd members, which
+results in an even order. By lemma, every member of $H$ is an even
+permutation, and therefore $H \in A_n$.</p>
+</li>
+<li>
+<p>How many elements of order 4 does $S_6$ have? How many elements of
+order 2 does $S_6$ have?</p>
+<p>Since the order is the least common multiple of the length of the
+cycle, the order is 4 iff the length of cycles is 4+2 or 4+1+1.</p>
+<p>We first permute 4 elements from 6, and since the elements is
+circular, we count each circle 4 times.</p>
+<p>There are $$P^6_4 / 4 = 90$$ elements in the group such as their
+cycles are 4+2.</p>
+<p>Similarly, there are $$P^6_4 / 4 = 90$$ elements in the group such
+as their cycles are 4+1+1.</p>
+<p>Thus, there are 90+90=180 elements of order 4 in $S_6$.<br>
+The possible length of circles for order 2 is 2+1+1+1+1 and 2+2+2
+and 2+2+1+1</p>
+<p>Thus, there are
+$$P^6_2 \times C^4_2 / 3! + C^6_2 + C^6_2C^4_2/2! = 75$$ elements in
+order 2 in $S_6$.</p>
+</li>
+<li>
+<p>Let G be a group of permutations on a set $X$. Let $a \in X$ and
+define stab(a) $= {\alpha \in  G | \alpha(a) = a}$. We call
+stab(a) the stabilizer of a in G (since it consists of all members
+of G that leave a fixed). Prove that stab(a) is a subgroup of G.
+(This subgroup was introduced by Galois in 1832.) This exercise is
+referred to in Chapter 7.</p>
+<ol>
+<li>
+<p>Let $e$ be the identity in $G$, since $G$ is a group of
+permutations, $e(a) = a$, so $e \in stab(a)$</p>
+</li>
+<li>
+<p>Let $\alpha, \beta \in stab(a)$,
+$(\alpha \beta) (a) = \alpha (\beta(a)) = \alpha(a) = a$. Thus,
+$\alpha \beta \in stab(a)$.</p>
+</li>
+<li>
+<p>Let $\alpha^{-1}$ be the inverse of $\alpha \in stab(a)$,
+$$\begin{aligned}
+\alpha(a) &amp;= a \\<br>
+\alpha^{-1}(\alpha(a)) &amp;= \alpha^{-1}(a) \\<br>
+(\alpha^{-1}\alpha)(a) &amp;= \alpha^{-1}(a) \\<br>
+e(a) &amp;= \alpha^{-1}(a) \\<br>
+a &amp;= \alpha^{-1}(a) \\<br>
+\end{aligned}$$</p>
+<p>Thus, $\alpha^{-1} \in stab(a)$</p>
+</li>
+</ol>
+<p>Thus, stab(a) is a subgroup of G.</p>
+</li>
+<li>
+<p>Let $H={b\in S_5|b(1) = 1, b(3)=3}$.Prove that H is a
+subgroup of $S_5$. How many elements are in H? Is your argument
+valid when $S_5$ is replaced by $S_n$ for $n \ge 3$? How many
+elements are in H when $S_5$ is replaced by $A_n$ for $n \ge 4$?</p>
+<p>Since $H = {b\in S_5|b(1) = 1} \cap {b\in S_5|b(3) = 3}$,
+$H= stab(1) \cap stab(3)$. Since the intersection of 2 subgroups are
+subgroups, and we know $stab(1)$ and $stab(3)$ are subgroup of
+$S_5$, $H$ is a subgroup of $S_5$.</p>
+<p>There are $P^3_3 = 3! = 6$ elements in $H$.</p>
+<p>Since $stab(1) \le S_n$, and $stab(3) \le S_n$, so
+$H = stab(1) \cap stab(3) \le H$. Thus, the argument is valid when
+$S_5$ is replaced by $S_n$ for $n \ge 3$</p>
+<p>When $S_5$ is replaced by $S_n$ there are $(n-2)!$ elements $\in H$.</p>
+<p>When $b \in S_n$, we know from the lemma that $H$ either has all
+even members or half even or odd member. Since we can always get an
+odd member by times the odd member with an even member, then $H$ has
+half even and half odd member.</p>
+<p>When $S_5$ is replaced by $A_n$ there are $(n-2)!/2$ elements
+$\in H$.</p>
+</li>
+<li>
+<p>In S4, find a cyclic subgroup of order 4 and a noncyclic subgroup of
+order 4.</p>
+<p>$\langle (1, 2, 3, 4) \rangle = {(1, 2, 3, 4), (1, 3)(2, 4), (1, 4, 3, 2), e }$
+is a cyclic subgroup of order 4, since
+$|\langle a \rangle| = |a| = 4$.</p>
+<p>An noncyclic subgroup is
+$G = {(1), (2), (1, 2), (3, 4), (1, 2)(3, 4)}$</p>
+<p>We can confirm it is a subgroup by viewing its Cayley table.</p>
+<hr>
+<pre><code>            (1)        (12)       (34)     (12)(34)
+ (1)        (1)        (12)       (34)     (12)(34)
+ (12)       (12)       (1)      (12)(34)     (34)
+ (34)       (34)     (12)(34)     (1)        (12)
+</code></pre>
+<p>(12)(34)   (12)(34)     (34)       (12)       (1)</p>
+<hr>
+<p>Since each element has an order of 2, no element can generate a
+group of order 4, the group is not acyclic.</p>
+</li>
+<li>
+<p>Find a cyclic subgroup of $A_8$ that has order 4.</p>
+<p>An example is $G = \langle (1, 2, 3, 4)(5, 6) \rangle$</p>
+<p>$= {(1, 2, 3, 4)(5, 6), (1, 3)(2, 4), (1, 4, 3, 2)(5, 6), e }$</p>
+<p>$(1, 2)(2, 3)(3, 4)(5, 6) = (1, 2, 3, 4)(5, 6)$</p>
+<p>Since the permutation can be expressed as a product of an even
+number of 2-cycles, $a \in A_8$.</p>
+<p>Since $lcm(4, 2) = 4$, the order of $a$ is 4.</p>
+<p>Since $|a|=|\langle a \rangle| = 4$, the group is acyclic.</p>
+</li>
+<li>
+<p>Shown below are four tire rotation patterns recommended by the
+Dunlop Tire Company. Explain how these patterns can be represented
+as permutations in S4 and find the smallest subgroup of S4 that
+contains these four patterns. Is the subgroup Abelian?</p>
+<p>We can treat each tire as a number as shown in the above picture,
+and the arrow be a function mapped a tire to another tire.</p>
+<p>Thus, each vehicles from top left to bottom right can be expressed
+as:</p>
+<p>a = (1423)</p>
+<p>b = (1324)</p>
+<p>c = (14)(23)</p>
+<p>d = (13)(24)</p>
+<p>Since $a^{-1} = (1324) = b$, and
+$b^2c = (1324)^2(14)(23) = (13)(24) = d$, we can generate a, b, c, d
+with b, c, $\langle a, b, c, d \rangle = \langle b, c \rangle$.</p>
+<p>Since $|\langle b \rangle| = |b| = |(1324)| = 4$, and
+$|\langle c \rangle| = |c| = 2$, also since there is another
+relation $cb^{-1} = bc = (34)$, the smallest subgroup is
+$G = {e, b, b^2, b^3, c, bc, b^2c, b^3c}$.</p>
+<p>By counterexample,</p>
+<p>$bc = (1324)(14)(23) = (34)$</p>
+<p>$cb = (14)(23)(1324) = (12)$</p>
+<p>Since $bc \neq cb$, the subgroup is not Abelian.</p>
+</li>
+<li>
+<p>Find 2 permutations in $A_4$ (the alternating group of even
+permutations in $S_4$) a and b, so that a and b are squares in A4
+(i.e., $a  = x^2$ and $b = y^2$ for x and y in A4) but ab is not a
+square in A4. Show that this solves the extra credit problem from
+HW2. (This is the smallest group that has this property).</p>
+<p>From the table, we can see $e$ and every 3-cycle permutation forms
+$K={g^2 \in A_4 | g \in A_4}$, since the square of the element is
+either a 3-cycle or the identity. However, it is not a subgroup of
+$A_4$, since $(132)(142) = (13)(24) \not \in K$, so it is not closed
+under operation. Since $A_4$ is not Abelian, this serves as an
+example.</p>
+</li>
+</ol>
+
+         
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="https://fanzhangg.github.io/js/jquery.min.js"></script>
+<script src="https://fanzhangg.github.io/js/bootstrap.min.js"></script>
+<script src="https://fanzhangg.github.io/js/jquery.cookie.js"> </script>
+<script src="https://fanzhangg.github.io/js/ekko-lightbox.js"></script>
+<script src="https://fanzhangg.github.io/js/jquery.scrollTo.min.js"></script>
+<script src="https://fanzhangg.github.io/js/masonry.pkgd.min.js"></script>
+<script src="https://fanzhangg.github.io/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://fanzhangg.github.io/js/owl.carousel.min.js"></script>
+<script src="https://fanzhangg.github.io/js/front.js"></script>
+
+
+
+</body>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+
+</html>

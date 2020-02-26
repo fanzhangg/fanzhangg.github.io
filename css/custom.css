@@ -33,6 +33,7 @@ body {
     margin-top: 0em;
     margin-bottom: 12px;
     text-transform: none;
+    letter-spacing: .5px;
 }
 
 .box-masonry .category {
