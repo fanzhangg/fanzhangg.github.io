@@ -6,7 +6,7 @@ showonlyimage = false
 date = "2020-2-15T21:50:47+05:30"
 title = "Three Times of History"
 weight = 1
-description = "Hou Hsia-Hsien’s film Three Times is composed of three love stories. The minimization of the plot and scene makes the film more authentic and leaves space for audience to speculate the unspoken message of the director. The three stories conveys Hou’s interpretation of three stages of Taiwan history, from the Japanese occupation ear, American psychological colonization period, to the urban modern time."
+description = "The three times conveys Hou’s interpretation of three stages of Taiwan history"
 +++
 
 Hou Hsia-Hsien’s film Three Times is composed of three love stories. The minimization of the plot and scene makes the film more authentic and leaves space for audience to speculate the unspoken message of the director. The three stories conveys Hou’s interpretation of three stages of Taiwan history, from the Japanese occupation ear, American psychological colonization period, to the urban modern time.

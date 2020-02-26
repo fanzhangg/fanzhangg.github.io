@@ -6,7 +6,7 @@ showonlyimage = false
 date = "2020-2-15T21:50:47+05:30"
 title = "Suzhou River: Make a Movie"
 weight = 1
-description = "In Lou Ye's film *Suzhou River*, he questions the film’s ability to mirror the reality, and underlines the role of a film, or a fictional work in general, as a median to communicate ideas and feelings."
+description = "Lou Ye questions the film’s ability to mirror the reality"
 +++
 
 In the film *Suzhou River*, the narrator, or the videographer asserts that his camera does not lie. For the director, he answers the question through the film, “Does the camera lie?” Using the story-within-a-story technique, he explores the interplay between fiction and reality. While he questions the film’s ability to mirror the reality, he underlines the role of a film, or a fictional work in general, as a median to communicate ideas and feelings.

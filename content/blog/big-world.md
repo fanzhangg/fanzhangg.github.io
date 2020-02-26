@@ -6,7 +6,7 @@ showonlyimage = false
 date = "2020-2-15T21:50:47+05:30"
 title = "Big World, Small People"
 weight = 1
-description = "In Liu Jian's film Have a Nice Day, the money is the definitive protagonist, who is the object of desire by all characters and the cause of the tragedy."
+description = "In Have a Nice Day, the money is the object of desire by all characters and the cause of the tragedy."
 +++
 
 As most animation aims to create a fantasy world, the director Liu Jian uses animation in his second film Big World (Have a Nice Day) as an approach to represent the reality of the time and the world he is living. His choice of animation avoids the collaboration with other people and compromises with the commercial market and allows him the complete freedom of expressing his subjective view. In his film, the money is the definitive protagonist, who is the object of desire by all characters and the cause of the tragedy. Besides examining money’s magic and corrupting power in today’s capitalism world, the director explores the metaphoric meanings of money for the marginalized people in China’s urban and thus represents their struggling under the inequality of big city and small city, rich and poor under the modern China.
