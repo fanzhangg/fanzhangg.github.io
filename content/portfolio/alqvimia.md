@@ -5,7 +5,7 @@ draft = false
 link = "https://alqvimia.tmall.hk/shop/view_shop.htm?spm=a220o.1000855.w5001-22401135396.12.25e06eab8W6aqI&scene=taobao_shop"
 image = "img/portfolio/alqvimia.jpg"
 showonlyimage = true
-weight = 1
+weight = 2
 description = "The Tmall online store of Alqvimia, a cosmetic company"
 +++
 
