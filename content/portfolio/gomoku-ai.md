@@ -6,7 +6,7 @@ link = "https://github.com/fanzhangg/gomoku-ai"
 image = "img/portfolio/gomoku-ai.png"
 description = "Play Gomoku game with AI"
 showonlyimage = false
-weight = 1
+weight = 2
 +++
 
 Play Gomoku game with AI

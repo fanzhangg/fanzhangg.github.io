@@ -1,5 +1,5 @@
 +++
-date = "2019-1-3T19:41:01+05:30"
+date = "2019-6-3T19:41:01+05:30"
 title = "Database on Japan War Crime"
 draft = false
 link = "https://frank-cho-foundation.github.io/"

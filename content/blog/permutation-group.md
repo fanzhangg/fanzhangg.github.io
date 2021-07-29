@@ -4,10 +4,32 @@ draft = false
 image = "img/blog/cube.jpg"
 showonlyimage = false
 date = "2020-2-25T19:50:47+05:30"
-title = "Group Exercise"
+title = "Permutation Group"
 weight = 1
-description = "Excise and Solutions for Group Problem"
+description = "# Algebraic Structure"
 +++
+
+## Definition
+
+1. **Permutation:** a function from $A$ to $A$ that is one-to-one and onto
+
+2. **Permutation group:** a set of permutations of $A$ that forms a group under function composition
+
+3. **Symmetric group:** $S_n = $ permutations of $\{1, 2, ..., n\}$, $|S_n| = n!$
+
+4. Disjoint cycles commute
+
+5. multiply the following two permutations in cycle notation 
+
+6. Write the permutation as a product of transpositions: $(12)(23)...(n-1n) = (12)(13)...(1n)$ 
+
+7. **Order of a permutation**: The order of a permutation of a finite set is the least common multiple of the lengths of the cycles
+
+8. **Always even or always odd theorem for permutations:** If $\alpha \in S_n$, and $\alpha = t_1...t_k = s_1...s_l$, then $k$ and $l$ are both even or odd
+
+9. If $A_n$ is the subset of even permutations, then $|A_n| = |B_n| = \frac{n!}{2}$, $|A_n|$ is a subgroup
+
+## Exercise
 
 1.  Suppose that H is a subgroup of $S_n$ of odd order. Prove that H is
     a subgroup of $A_n$.
