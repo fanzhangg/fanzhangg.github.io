@@ -5,7 +5,7 @@ draft = false
 link = "https://www.lvjingtang.com/"
 image = "img/portfolio/lvjingtang.png"
 showonlyimage = true
-weight = 1
+weight = 3
 description = "The website of Lvjingtang Hotel"
 +++
 

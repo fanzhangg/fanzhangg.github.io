@@ -6,7 +6,7 @@ link = "https://jacktansnake.github.io/COMP_361_Project/"
 image = "img/portfolio/l-system.png"
 showonlyimage = false
 description = "An web app to visualize user-defined l-system"
-weight = 1
+weight = 2
 +++
 
 An web app to visualize user-defined l-system
