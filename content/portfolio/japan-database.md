@@ -6,7 +6,7 @@ link = "https://frank-cho-foundation.github.io/"
 image = "img/portfolio/database.png"
 description = "A database for research on Japanese war crimes during WWII"
 showonlyimage = false
-weight = 1
+weight = 2
 +++
 
 A database for research on Japanese war crimes during WWII
