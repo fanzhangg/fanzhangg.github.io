@@ -1,4 +1,4 @@
-baseurl = "https://fanzhangg.github.io/"
+baseURL = "https://fanzhangg.github.io/"
 title = "Fan Zhang"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
