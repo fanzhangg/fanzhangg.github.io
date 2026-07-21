@@ -11,10 +11,10 @@ googleAnalytics = ""
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "blue"
-  description = "Fan Zhang's Personal Website"
-  copyright = "&copy;2016 Fan Zhang"
+  description = "Fan Zhang's personal website"
+  copyright = "&copy;2026 Fan Zhang"
   sidebarAbout = [
-    "I am a question mark on the Mediterranean."
+    "Software Development Engineer at AWS working on LLM and multimodal serving infrastructure."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -28,7 +28,7 @@ googleAnalytics = ""
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "you@yoursite.com"
+  email = "vanadiumzhang@gmail.com"
 
     # Optional Matomo analytics (formerly piwik)
       # [params.analytics.matomo]

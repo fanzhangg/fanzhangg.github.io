@@ -1,75 +1,52 @@
 +++
 date = "2016-11-05T21:05:33+05:30"
-title = ""
+title = "About"
 +++
 
-## PROFESSIONAL EXPERIENCE
+I am interested in building LLM inference platform and runtime at production scale. In my spare time, I like to build softwares for my hobbies: Music, Movie, and Board Games.
 
-### Software Engineer Intern, Elastic Load Balancer, AWS
 
-*2022.06 - 2022.09*
+## Technical Focus
 
-- Designed and implemented an automatic system to benchmark the performance of the load balancer software of different versions
-on different EC2 instance types. Automate the workflows to create testing stacks, generate ramping-up traffics, query and aggregate
-5 metrics (CPU, memory utilization, NetworkIn, etc.)
-- Used multiple AWS services. Created testing resources using Cloud Formation. Generated client traffics with ECS clusters. Monitored the performance metrics on CloudWatch. Stored the metric values in the DynamoDB table.
-- Adapted an internal testing framework. Added private API calls. Wrote unit tests using Pytest to reach 95%+ new code coverage.
-- Made the new system more time-efficient by reusing testing stacks, more flexible by supporting configuration of the traffic profile, testing resource, and metric types using Jinja templates, and more scalable by allowing to simulate a large volume of traffic.
+- LLM serving with vLLM, PyTorch, VLM inference, continuous batching, chunked prefill, prefix caching, KV-cache management, tensor parallelism, and data parallelism
+- Serving infrastructure with Kubernetes, multi-cluster orchestration, topology-aware node scheduling, self-healing automation, capacity planning, and auto-scaling
+- Accelerator performance with AWS Trainium, Neuron, NKI kernel development, Neuron Profiler, and performance profiling
+- Programming in Python, C/C++, Java, SQL, Ruby, and TypeScript
 
-### Web Developing Intern, Entre
+## Professional Experience
 
-*2020.06 - 2020.09*
+### Software Development Engineer II, Trainium Multimodal Serving
 
-- Accomplished an online networking platform for entrepreneurs to find partner which attracted beyond 2500 users and 300 upvotes in Producthunt within 3 months
-- Developed the front end of the website using React. Used Redux to interact with the backend API, Firebase for user authentication, and prop-type to check the property type of components
-- Implemented the feed, notification, inbox, and profile pages. Initiated membership subscription for revenue
-- Deployed the website by AWS for scalability and iterated the design on Figma based on beta users’ feedback
+*AWS Annapurna Labs, Seattle, WA - Mar 2026 - Present*
 
-### Web Developing Intern, Info Tech
+- Extended the vLLM Neuron plugin from text-only serving to vision-language model serving on Trainium, including ViT encoder execution and vision-embedding injection into the text prefill graph.
+- Built a vision-embedding cache to avoid repeated image encoder computation in workloads where KV prefix caching cannot cover repeated images.
+- Designed hybrid model parallelism for VLM serving, using data parallelism across vision encoder executions and tensor parallelism for the text decoder.
+- Profiled and optimized an NKI MLP kernel for Qwen3-VL on Trainium, fusing operations to reduce per-layer forward-pass latency.
 
-*2018.06 - 2018.09*
+### Software Development Engineer I -> II, Claude Serving Platform
 
-- Designed the UI of Lvjingtang Hotel website with Sketch and highlighted hotel’s intimacy with nature in design
-- Created the hotel introduction, room reservation, and product e-shop pages using HTML and CSS, and implemented interactive animations using JavaScript
+*AWS Bedrock, Seattle, WA - Oct 2024 - Mar 2026*
 
-## PROJECT EXPERIENCE
+- Onboarded Trn2 UltraServers for low-latency multi-node decoding, automating node provisioning from EC2 Capacity Blocks into shared warm pools across Kubernetes clusters.
+- Led the design and delivery of a self-healing system with per-fault-type tolerance policies for large-scale inference fleets across GPUs and Trainium.
+- Designed a centralized node-allocation service that assigns physically co-located nodes to inference StatefulSets across multiple Kubernetes clusters.
+- Enabled topology- and accelerator-aware prefill/decode routing for disaggregated Claude serving by surfacing node topology and accelerator metadata through Kubernetes pod metadata.
 
-### Chord Master
+### Software Development Engineer I, Elastic Load Balancing
 
-*2020.01 - 2020.04*
+*AWS Elastic Load Balancing, Seattle, WA - Sep 2023 - Oct 2024*
 
-- Built and designed an Electron web application using Typescript and Sass for musicians to intuitively build a chord progression which achieved beyond 100 upvotes on the Producthunt
-- Deployed a virtual piano interface for the user to input a chord, and realized the function of chord inversion
-- Simulated authentic piano sound using Tone.js and added premium choice for downloading Midi format file
+- Expanded ELB fleet capacity by enabling scale-up to larger EC2 instance types with priority-based scaling logic.
+- Automated end-to-end benchmarking for ELB instance-type onboarding, reducing validation effort and accelerating rollout across commercial regions.
 
-### L-System Simulator
+## Education
 
-*2019.09 - 2019.10*
+- M.S. Computer Science, University of Southern California, Los Angeles, CA
+- B.S. Computer Science & Mathematics, Macalester College, St. Paul, MN
 
-- Conducted a website to generate fractal artworks based on the user’s input of L-system grammar
-- Checked legal input syntax using Regular Expression, and dynamically adjusted the pattern size to fit the window
+## Contact
 
-### Twitter Client (Swift)
-
-*2019.06 - 2019.08*
-
-- Built an iOS Twitter client application to support users to authorize login, retrieve timeline data, and access followings and followers by calling Twitter APIs using Networking library
-- Created user interface utilizing Xib files and implemented searching and infinite scrolling
-
-## RESEARCH EXPERIENCE
-
-### Research Assistant of Prof. Yue-him Tam in Macalester
-
-*2019.06 - 2019.09*
-
-- Obtained and digitalized more than 100 copies of videos and documents and created an online database by Jekyll which helps researchers learn the history of the Second Sino-Japanese War
-- Used python to accomplish a pipeline which auto-transfers collected data from sheets to the database
-
-### Research Assistant of Pof. Esra Kadioglu Urtis’s in Macalester
-
-*2020.06 - 2020.09*
-
-- Used Actor-Critic algorithm for coverage path planning of multiple drones, tuned the reward function and created a customized Gym environment for testing the algorithm.
-- Find a collaborative and non-colliding coverage path by a team of 4 drones in a 10x10 discrete field in 1000 episode.
-
-## Drop me a line
+- Email: [vanadiumzhang@gmail.com](mailto:vanadiumzhang@gmail.com)
+- LinkedIn: [linkedin.com/in/fanzhangg](https://linkedin.com/in/fanzhangg)
+- GitHub: [github.com/fanzhangg](https://github.com/fanzhangg)
