@@ -1,5 +1,5 @@
 +++
-date = "2019-1-2T19:41:01+05:30"
+date = "2019-01-02T19:41:01+05:30"
 title = "Gomoku AI"
 draft = false
 link = "https://github.com/fanzhangg/gomoku-ai"

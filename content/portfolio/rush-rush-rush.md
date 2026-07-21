@@ -1,5 +1,5 @@
 +++
-date = "2022-9-1T19:41:01+05:30"
+date = "2022-09-01T19:41:01+05:30"
 title = "Rush Rush Rush"
 draft = false
 description = "A 3D Platformer Game"

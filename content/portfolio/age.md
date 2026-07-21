@@ -1,5 +1,5 @@
 +++
-date = "2019-1-1T19:41:01+05:30"
+date = "2019-01-01T19:41:01+05:30"
 title = "Network of Empires"
 draft = false
 description = "A network analysis on game matches of Age of Empire II"

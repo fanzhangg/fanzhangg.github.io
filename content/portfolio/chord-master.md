@@ -1,5 +1,5 @@
 +++
-date = "2019-1-1T19:41:01+05:30"
+date = "2019-01-01T19:41:01+05:30"
 title = "Chord Master"
 draft = false
 description = "An web application to build your chord progression"

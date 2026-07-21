@@ -1,5 +1,5 @@
 +++
-date = "2019-1-1T19:41:01+05:30"
+date = "2019-01-01T19:41:01+05:30"
 title = "Mask Detection"
 draft = false
 description = "An interface to detect whether people wear a mask in video"

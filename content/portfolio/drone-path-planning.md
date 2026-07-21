@@ -1,5 +1,5 @@
 +++
-date = "2019-1-1T19:41:01+05:30"
+date = "2019-01-01T19:41:01+05:30"
 title = "Multi Drone Path Planning"
 draft = false
 description = "A reinforcement environment for multiple drones to find coverage paths"

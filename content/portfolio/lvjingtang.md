@@ -1,5 +1,5 @@
 +++
-date = "2020-2-1T19:41:01+05:30"
+date = "2020-02-01T19:41:01+05:30"
 title = "Lvjingtang Hotel"
 draft = false
 link = "https://www.lvjingtang.com/"

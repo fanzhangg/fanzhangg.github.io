@@ -1,5 +1,5 @@
 +++
-date = "2020-6-1T19:41:01+05:30"
+date = "2020-06-01T19:41:01+05:30"
 title = "Entre"
 draft = false
 description = "A social platform for entrepreneurs"

@@ -1,5 +1,5 @@
 +++
-date = "2019-1-4T19:41:01+05:30"
+date = "2019-01-04T19:41:01+05:30"
 title = "L-system Simulator"
 draft = false
 link = "https://jacktansnake.github.io/COMP_361_Project/"
