@@ -1,7 +1,19 @@
-<head> 
-    {{ range .Site.Params.navlinks }}
-    {{ if .home }}
-    <meta http-equiv="refresh" content="0; URL={{ .url | absURL }}" />
-    {{ end }}
-    {{ end }}
-  </head>
+{{ define "main" }}
+{{ $about := .Site.GetPage "section" "about" }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  {{ partial "mobile_nav_toggle.html" . }}
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content profile-content">
+        {{ with $about }}
+          <h1>{{ .Title }}</h1>
+          {{ .Content }}
+        {{ else }}
+          <h1>{{ .Site.Title }}</h1>
+        {{ end }}
+        {{ partial "contact_form.html" . }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

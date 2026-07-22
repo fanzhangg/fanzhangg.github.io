@@ -1,0 +1,31 @@
+<section class="contact-panel" id="contact">
+  <h2>Contact</h2>
+  <p>
+    The fastest way to reach me is email:
+    <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>.
+  </p>
+  {{ with .Site.Params.formspreeEndpoint }}
+    <form id="contact-form" class="contact-form form" method="post" action="{{ . }}">
+      <div class="controls">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" autocomplete="name" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" autocomplete="email" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea rows="5" name="message" id="message" required class="form-control"></textarea>
+        </div>
+        <input type="hidden" name="_subject" value="New message from fanzhangg.github.io">
+        <button type="submit" class="btn btn-ghost">Send message</button>
+      </div>
+    </form>
+  {{ else }}
+    <p>
+      <a class="btn btn-ghost" href="mailto:{{ .Site.Params.email }}">Email me</a>
+    </p>
+  {{ end }}
+</section>

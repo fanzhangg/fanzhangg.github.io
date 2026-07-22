@@ -13,22 +13,12 @@ googleAnalytics = ""
   style = "blue"
   description = "Fan Zhang's personal website"
   copyright = "&copy;2026 Fan Zhang"
-  sidebarAbout = [
-    "Software Development Engineer at AWS working on LLM and multimodal serving infrastructure."
-  ]
+  sidebarAbout = []
   # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
-     #
-     # What you need to do for the setup?
-     #
-     # - set your email address under 'email' below
-     # - upload the generated site to your server
-     # - send a dummy email yourself to confirm your account
-     # - click the confirm link in the email from www.formspree.io
-     # - you're done. Happy mailing!
   email = "vanadiumzhang@gmail.com"
+  # Create a Formspree form and set this to "https://formspree.io/f/YOUR_FORM_ID"
+  # to enable the hosted contact form. Without it, the site shows a direct email link.
+  formspreeEndpoint = ""
 
     # Optional Matomo analytics (formerly piwik)
       # [params.analytics.matomo]
@@ -42,16 +32,20 @@ googleAnalytics = ""
   # Nav links in the side bar
   [[params.navlinks]]
   name = "Home"
-  url = "portfolio/"
+  url = ""
   home = true
+
+  [[params.navlinks]]
+  name = "Portfolio"
+  url = "portfolio/"
 
   [[params.navlinks]]
   name = "Blog"
   url = "blog/"
 
   [[params.navlinks]]
-  name = "About"
-  url = "about/"
+  name = "Contact"
+  url = "contact/"
 
 
   [params.social]

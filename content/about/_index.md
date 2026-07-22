@@ -1,17 +1,16 @@
 +++
 date = "2016-11-05T21:05:33+05:30"
-title = "About"
+title = "Fan Zhang"
 +++
 
 I am interested in building LLM inference platform and runtime at production scale. In my spare time, I like to build softwares for my hobbies: Music, Movie, and Board Games.
 
+## Technical Skills
 
-## Technical Focus
-
-- LLM serving with vLLM, PyTorch, VLM inference, continuous batching, chunked prefill, prefix caching, KV-cache management, tensor parallelism, and data parallelism
-- Serving infrastructure with Kubernetes, multi-cluster orchestration, topology-aware node scheduling, self-healing automation, capacity planning, and auto-scaling
-- Accelerator performance with AWS Trainium, Neuron, NKI kernel development, Neuron Profiler, and performance profiling
-- Programming in Python, C/C++, Java, SQL, Ruby, and TypeScript
+- **LLM serving:** vLLM, PyTorch, VLM inference, disaggregated prefill/decode, continuous batching, chunked prefill, KV-cache management, prefix caching, tensor parallelism, data parallelism
+- **Serving infrastructure:** Kubernetes, multi-cluster orchestration, topology-aware node scheduling, self-healing automation, capacity planning, auto-scaling
+- **Accelerators and kernels:** AWS Trainium, Neuron, NKI kernel development, Neuron Profiler, performance profiling
+- **Languages:** Python, C/C++, Java, SQL, Ruby, TypeScript
 
 ## Professional Experience
 
@@ -21,7 +20,7 @@ I am interested in building LLM inference platform and runtime at production sca
 
 - Extended the vLLM Neuron plugin from text-only serving to vision-language model serving on Trainium, including ViT encoder execution and vision-embedding injection into the text prefill graph.
 - Built a vision-embedding cache to avoid repeated image encoder computation in workloads where KV prefix caching cannot cover repeated images.
-- Designed hybrid model parallelism for VLM serving, using data parallelism across vision encoder executions and tensor parallelism for the text decoder.
+- Designed hybrid model parallelism for VLM serving, using data parallelism across independent vision encoder executions and tensor parallelism for the text decoder.
 - Profiled and optimized an NKI MLP kernel for Qwen3-VL on Trainium, fusing operations to reduce per-layer forward-pass latency.
 
 ### Software Development Engineer I -> II, Claude Serving Platform
@@ -44,9 +43,3 @@ I am interested in building LLM inference platform and runtime at production sca
 
 - M.S. Computer Science, University of Southern California, Los Angeles, CA
 - B.S. Computer Science & Mathematics, Macalester College, St. Paul, MN
-
-## Contact
-
-- Email: [vanadiumzhang@gmail.com](mailto:vanadiumzhang@gmail.com)
-- LinkedIn: [linkedin.com/in/fanzhangg](https://linkedin.com/in/fanzhangg)
-- GitHub: [github.com/fanzhangg](https://github.com/fanzhangg)
