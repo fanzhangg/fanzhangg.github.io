@@ -121,6 +121,8 @@ h4, h2, h3 {
 
 .profile-content p,
 .profile-content li {
+    font-size: 17px;
+    line-height: 1.65;
     color: #1f2937;
 }
 
@@ -144,8 +146,6 @@ h4, h2, h3 {
 .profile-content li {
     margin-bottom: 9px;
     padding-left: 0.15em;
-    font-size: 16px;
-    line-height: 1.62;
 }
 
 .profile-content li::marker {
